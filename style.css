@@ -1,0 +1,215 @@
+
+/* Media Queries: Tablet Landscape */
+ @media screen and (max-width: 1060px) {
+    .content { width:67%; }
+    .nav-bar { width:30%; margin-left:3%;}  
+} 
+
+/* Media Queries: Tabled Portrait */
+ @media screen and (max-width: 768px) {
+    .content { width:100%; }
+    .nav-bar { width:100%; margin:0; border:none; }
+}
+
+img { 
+    max-width: 100%; height: auto; 
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+} 
+
+ html { 
+    font-size:100%; 
+}
+
+@media (min-width: 640px) { 
+    body {font-size:1rem;} 
+} 
+@media (min-width:960px) { 
+    body {font-size:1.2rem;} 
+} 
+@media (min-width:1100px) { 
+    body {font-size:1.5rem;} 
+}  
+
+.header{
+    width: 60%;
+    height: 700px;
+    margin: auto;
+    background-color:b;
+    background-image: url;
+}
+
+#title{
+    position: relative;
+    font-style: oblique;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 90px;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    transform: skewY(-8deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: #d67429;
+    text-shadow: 
+      -1px -1px 0 rgb(12, 10, 10),
+      -2px -2px 0 rgb(12, 10, 10),
+      -3px -3px 0 rgb(12, 10, 10),
+      -4px -4px 0 rgb(12, 10, 10),
+      -5px -5px 0 rgb(12, 10, 10),
+      -6px -6px 0 rgb(12, 10, 10),
+      -7px -7px 0 rgb(12, 10, 10),
+      -8px -8px 0 rgb(12, 10, 10),
+      -30px 20px 40px #000000
+}
+
+#undertitle{
+    position: relative;
+    font-style: oblique;
+    text-align: center;
+    bottom: 50px;
+    left: 25%;
+    font-size: 60px;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: #d67429;
+    text-shadow: 
+     -1px -1px 0 rgb(12, 10, 10),
+     -2px -2px 0 rgb(12, 10, 10),
+     -3px -3px 0 rgb(12, 10, 10),
+     -4px -4px 0 rgb(12, 10, 10),
+     -5px -5px 0 rgb(12, 10, 10),
+     -6px -6px 0 rgb(12, 10, 10),
+     -7px -7px 0 rgb(12, 10, 10),
+     -8px -8px 0 rgb(12, 10, 10),
+     -30px 20px 40px #000000
+}
+
+body{
+    background-image: url(bilgewater/bilgewater.background.jpg);
+    background-attachment: fixed;
+    /* background-color: blue; */
+}
+
+.main{
+     display: flex; 
+}
+
+
+
+
+.content{
+    position: relative;
+    width: ;
+    margin: auto;
+    margin-top: 40px;
+    width: 70%;
+    overflow: hidden;
+    padding: 10px;
+    /* background: black; */
+    flex: 3;
+    
+
+
+}
+.content ul{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.content ul li{
+    list-style: none;
+   
+}
+
+.content img{
+    float: left;
+    width: 20%;   
+    margin: 15px 15px 15px 30px;
+    height: 250px;
+   
+    
+}
+
+.regions{
+    /* background-color:yellow; */
+    /* border-top: 5px solid black;
+    border-width: 4px; */
+    width: 100%;
+    margin: auto;
+}
+
+.regions img{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    padding-bottom: 10px;
+    /* background-color: black; */
+    left: 10%;
+    padding-right: 40px;
+    
+}
+
+.side-content{
+    flex: 1;
+
+}
+
+.nav-bar{
+    height: 60px;
+    padding-top: 0px;
+    margin-top: 60px;
+    background-color: ;
+    position: relative;
+    right: 2%;
+}
+
+.nav-bar li{
+    margin: auto;
+    font-size: 30px;
+    font-style: oblique;
+    color: #000000;
+    background-color: brown;
+    padding: 10px 40px 10px 30px;
+    justify-content: stretch;
+    overflow: hidden;
+    border: solid black;
+    border-width: 1 1px;
+}
+
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.nav-bar li a:hover {
+    background-color: #c9bcaf;
+    color: black;
+}
+
+.nav-bar ul{
+    margin: auto;
+    background-color: ;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 5%;
+   
+}
+
+.nav-bar ul li{
+    list-style-type: none;
+}
