@@ -164,15 +164,7 @@ body{
     
 }
 
-.side-content{
-    margin-top: 50px;
-    position: relative;
-    background-color: ;
-    height: 700px;
-    border: 1px solid red;
-    flex: 1.5;
 
-}
 
 .nav-bar{
     height: 60px;
@@ -205,9 +197,8 @@ body{
     cursor: pointer;
 
 }
-.nav-bar li a:hover {
-    background-color: #ff8340;
-    color: black;
+.nav-bar a:hover {
+    color: #03a5fc;
 }
 
 .selected{
@@ -227,3 +218,65 @@ body{
 .nav-bar ul li{
     list-style-type: none;
 }
+
+.side-content{
+    margin-top: 70px;
+    position: relative;
+    background-color: ;
+    height: 600px;
+    /* border: 1px solid red; */
+    flex: 1.5;
+    background-color: rgb(0,0,128,0.7);
+    
+    
+    
+    
+
+}
+
+.side-content ul li{
+    list-style: none;
+}
+
+.side-nav-bar{
+    margin: auto;
+    display: flex;
+    width: 460px;
+    height: 50px;
+    font-size: 30px;
+    font-style: oblique;
+    background-color: brown;
+    justify-content: stretch;
+}
+
+.side-nav-bar a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.side-nav-bar a:hover{
+    color: #03a5fc;
+}
+
+.side-nav-bar li{
+    /* border: 3px solid black; */
+    top: 3px;
+   
+}
+
+#left{
+    position: relative;
+    right: 45px;
+    padding-right: 20px;
+    padding-left: 30px;
+
+}
+
+#right{
+    justify-content: stretch;
+    position: relative;
+    padding-right: 20px;
+    padding-left: 30px;
+    right: 10px;
+}
+
