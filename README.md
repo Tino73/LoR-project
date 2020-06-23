@@ -6,4 +6,4 @@ By the time the project is finished, you'll be able to:
   - Find the best content creators of LoR and the link to their channels,
   - All of meta-decks for the region you desire
   
- Currently implementing: Second Region, P&Z
+ Currently implementing: Third Region, Noxus
