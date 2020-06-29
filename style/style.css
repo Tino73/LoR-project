@@ -47,10 +47,8 @@ img {
 
 /* ******************** HHEEAADD ******************** */
 .regions a:hover{
-    border-bottom: 1px solid wheat;
-    
+    border-bottom: 1px solid wheat;   
 }
-
 .header{
     margin: auto;
     width: 80%;
