@@ -1,5 +1,5 @@
 # LoR-project
-https://tino73.github.io/LegendsOfRuneterra/.
+https://altinthaqi.github.io/LegendsOfRuneterra/.
 
 A website for Legends of Runeterra, a mobile version of LoL, remastered into a card-game by RIOT Games.
 By the time the project is finished, you'll be able to:
